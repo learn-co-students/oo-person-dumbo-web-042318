@@ -14,12 +14,12 @@ class Person
     end
 
 
-    def happiness
-      [@happiness, 0, 10].sort[1]
+    def happiness=(num)
+      @happiness = [num, 0, 10].sort[1]
     end
 
-    def hygiene
-      [@hygiene, 0, 10].sort[1]
+    def hygiene=(num)
+      @hygiene = [num, 0, 10].sort[1]
     end
 
     def happy?
